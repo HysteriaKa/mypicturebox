@@ -3,8 +3,12 @@ header {
     border: 2px dotted black;
     background-color: white;
     padding: 10px;
-    width: 100%;
-    box-sizing: border-box;
+    width: 80%;
+    box-sizing: initial;
+    margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
+   
 }
 
 .wrapper {
@@ -20,6 +24,7 @@ h1 {
     text-align: center;
     font-size: 1.5em;
 }
+
 /* menu navigation -pas de retour a la ligne*/
 nav {
     white-space: nowrap;
@@ -31,23 +36,41 @@ nav {
     margin-left: auto;
     margin-right: auto;
     margin-top: 14px;
-     
+
 }
 
 nav a {
     display: inline-block;
-    color: black;
     text-decoration: none;
-    margin: 8px;
+    margin: 9px;
     margin-right: 0px;
     border: 2px solid black;
-    background-color: rgb(179, 171, 171);
-    padding: 5px;
+    padding: 8px;
+    font-family: Arial, sans-serif;
+    font-size: 1.1em;
+    width: 110px;
+    height: auto;
+    padding-top: 3px;
+    /*permet le centrage vertical*/
+    text-align: center;
+    /*bouton style*/
+    color: #000;
+    background: #444;
+    padding-bottom: 2px;
+    background: linear-gradient(rgb(172, 169, 169), #2C2C2C);
+    border-radius: 8px;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 5px rgba(167, 164, 164, 0.5), 0 -1px 0 rgba(255, 255, 255, 0.4);
+
+
+
 }
 
 nav a:last-of-type {
     margin-right: 8px;
+
 }
+
 /*conteneur des images miniatures*/
 .miniaturesContainer {
     white-space: nowrap;
@@ -58,13 +81,14 @@ nav a:last-of-type {
     margin-left: auto;
     margin-right: auto;
     margin-top: 17px;
-   
+
 }
-.miniatures{
-    
+
+.miniatures {
+
     width: auto;
-    height:80px;
-   
+    height: 80px;
+
 }
 
 .photogrand {
@@ -77,10 +101,13 @@ h2 {
     border: 2px Solid black;
     width: 80%;
     margin-left: auto;
-    margin-right: auto; 
-    background-color: grey;   
+    margin-right: auto;
+    background-color: grey;
+    background: linear-gradient( #555, #2C2C2C);
+    text-shadow: 0px 1px 0px rgba(236, 227, 227, 0.2);
 }
-section{
+
+section {
     border: 2px solid black;
     margin-left: auto;
     margin-right: auto;
